@@ -1,0 +1,35 @@
+{
+    "title": "Maks Bacza | Kaligraf",
+    "nav": {
+        "about": "O mnie",
+        "calligraphy": "Kaligrafia",
+        "creations": "Twórczość",
+        "contact": "Kontakt"
+    },
+    "about":{
+        "title": "O mnie",
+        "main-text-1": "Lubię tworzyć ładne rzeczy i kaligrafuję już od pięciu (5) lat",
+        "main-text-2": "Kiedyś na technice w gimbazie było pismo techniczne i w sumie bardzo mi się spodobało, to właśnie tam wszystko się zaczęło",
+        "main-text-3": "Poza tym koty > psy i osiem gwiazdek",
+	"invitations-title": "Zaproszenia",
+        "invitations-text": "Kiedyś jak zrobię z tego faktyczny biznes to pewnie będe pisał dużo zaproszeń.",
+        "contact-button": "Pogadajmy"
+    },
+    "calligraphy": {
+        "title": "Moje Prace",
+        "main-text-1": "Największą inspiracją dla moich prac stanowi muzyka, gry lub rzeczy z życia codziennego. Wiele moich prac polega na eksperymentowaniu i zabawie literą.",
+        "main-text-2": "Najchętniej sięgam do fraktury, Blackletter lub Copperplate, na drugim miejscu stawiam Brush Lettering i Modern Calligraphy, choć są one także bardzo przyjemne",
+        "main-text-3": "Gorąco polecam Pilot Parallel Pen, niesamowicie łatwo sie nimi pisze i przynoszą bardzo ładne rezultaty"
+    },
+    "creations": {
+        "title": "Moja Sztuka",
+        "floppa": "„Floppa na Projektowanie Graficzne”",
+        "haus": "„Haus w mc”"
+
+    },
+    "contact": {
+        "form-title": "Tytuł",
+        "form-message": "Wiadomość",
+        "form-button": "Wyślij"
+    }
+}

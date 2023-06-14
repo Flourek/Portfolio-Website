@@ -1,0 +1,289 @@
+/* Swup page transition  */
+.transition-fade{
+  opacity: 1;
+  transition: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+html.is-animating .transition-fade{
+  opacity: 0;
+}
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    margin: auto;
+    scroll-behavior: smooth;
+  }
+
+main{
+  min-height: calc(100vh - 200px);
+  transition-duration: 0ms;
+}
+
+
+@font-face {
+  font-family: custom-italic;
+  src: url('content/texgyrechorus-mediumitalic.woff');
+}
+
+.italic {
+  font-family: custom-italic;
+}
+
+
+/* General */
+
+*:focus-visible{
+  outline: black solid 2px;
+  outline-offset: 2px;
+}
+
+*:focus{
+  outline: black solid 2px;
+  outline-offset: 2px; 
+}
+
+p {
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+h1.italic {
+  font-size: clamp(3rem, 7vw, 4rem);
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+h1.italic::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  margin-top: -0.125rem;
+  background-color: goldenrod; 
+}
+
+.btn {
+  background-color: goldenrod;
+  color: white;
+}
+
+.btn:hover{
+  color: white;
+  background-color: rgb(226, 193, 109);
+  box-shadow: 0 0 0 0.25rem rgb(226, 193, 109);
+}
+
+.btn:focus{
+  background-color: rgb(226, 193, 109);
+  box-shadow: 0 0 0 0.25rem rgb(226, 193, 109);
+}
+
+/* ------------------------- NAVBAR ------------------------- */
+#navbar {
+  max-width: 1000px;
+}
+
+#navbar-brand {
+  max-height: 3rem;
+}
+
+.nav-toggler {
+  border-width: 0px;
+  background-color: transparent;
+  font-size: 1.55rem;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 480;
+  transition: background-color 500ms;
+}
+
+.nav-link.active::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: goldenrod; 
+}
+
+.nav-link:hover{
+  background-color: #eee;
+}
+
+@media (max-width: 768px) {
+  .nav-link.active::after{
+    width: 9ch;
+  }
+}
+
+#language-toggler {
+  width: 35px;
+  border: black 2px solid;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: border 250ms;
+}
+
+#language-toggler:hover {
+  border-color: goldenrod;
+  transition: border-color 250ms;
+}
+
+.fab, .far {
+  color: black;
+  font-size: 25px;
+  transition: color 200ms
+}
+
+.navbar-nav .fab:hover, 
+.navbar-nav .far:hover {
+  color: goldenrod;
+  transition: color 200ms;
+
+}
+
+#hamburger {
+  background-color: #f8f9fa;
+  color: black;
+  transition: color 200ms;
+  font-size: 1.875rem;
+}
+
+#hamburger:focus-visible{
+  outline: black solid 2px;
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+#hamburger:focus{
+  outline: black solid 2px !important; 
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus-visible {
+  outline: black solid 2px !important; 
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+#hamburger:not(.collapsed) {
+  color: goldenrod;
+  transition: color 200ms;
+}
+
+
+/* --------------------- ABOUT PAGE ------------------------- */
+
+#about {
+  background-color: white;
+}
+
+
+#about-photo {
+  max-height: 100rem;
+  min-height: clamp(15rem, 1vh, 30rem);
+  object-fit: cover;
+}
+
+#about-name {
+  font-size: clamp(2.5rem, 7vw, 4rem);
+  font-family: custom-italic;
+}
+
+.about-text{
+  max-width: 55ch;
+  font-size: 1.25rem;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+}
+
+#about-invite-text {
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  max-width: 40ch;
+}
+
+.main-header {
+  font-size: clamp(3rem, 7vw, 4rem);
+  font-family: custom-italic;
+  padding-top: 2rem;
+}
+
+@media (max-width: 992px) {
+  #about-photo {
+    max-height: 50vh;
+  }
+
+  .main-header {
+    padding-top: 1rem !important;
+  }
+}
+  
+#about-div {
+  background-color: white;
+}
+
+
+/* ------------------------- CONTACT PAGE  -------------------------*/
+
+.form-control:focus{
+  box-shadow: none;
+  border-color: goldenrod;
+}
+
+#contact-info{
+  font-size: clamp(1.6rem, 2vw, 2rem); 
+  color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+#contact-info::before{
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0.5rem;
+  width: 3px;
+  height: 80vh;
+  background-color: goldenrod; 
+}
+
+
+@media (max-width: 992px) {
+  #contact-info{
+    font-size: clamp(1rem, 5.5vw, 2rem);  
+  }
+}
+
+/* ------------------------- WORKS PAGE ------------------------- */
+
+.works-img{
+  max-width: 9rem;
+  max-width: clamp(9rem, 14vw, 14rem);
+  padding: 0.5rem;
+}
+
+@media (max-width: 992px) {
+  .works-img{
+     max-width: clamp(10rem, 14vw, 14rem);  
+  }
+
+  #gallery {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+  }
+}
+
+.works-text {
+  font-size: 1.4rem; 
+  max-width: 45ch;
+}
+
+.art-img {
+  border: 3px solid #444;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}

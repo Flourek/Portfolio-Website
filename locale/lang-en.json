@@ -1,0 +1,34 @@
+{
+    "title": "Maks Bacza | Calligrapher",
+    "nav": {
+        "about": "About",
+        "calligraphy": "Calligraphy",
+        "creations": "Creations",
+        "contact": "Contact"
+    },
+    "about":{
+        "title": "About me",
+        "main-text-1": "I like making pretty things and I've been doing Calligraphy for the past five (5) years",
+        "main-text-2": "One time in gymnasium-base on the subject called technic we had technical writing which I ended up liking very much and that's where it all began",
+        "main-text-3": "By the way, cats > dogs, as well as eight stars",
+        "invitations-title": "Invitations",
+        "invitations-text": "Once this is an actuall business I'll probably be writing tons of invitations",
+        "contact-button": "Let's talk"
+    },
+    "calligraphy": {
+        "title": "My Works",
+        "main-text-1": "The biggest inspiration for my writing is music and video games. Many of my works are based on experimentation and having fun with typography",
+        "main-text-2": "Fraktur, Blackletter and Copperplate - these are the calligraphy styles you'll see me use most often, but I enjoy Brush Lettering & Modern Calligraphy as well",
+        "main-text-3": "If I had to use only one pen, it would be the Pilot Parrallel Pen. Very easy to use and brings great results"
+    },
+    "creations": {
+        "title": "My Art",
+        "floppa": "„Floppa for Graphical Projecting”",
+        "haus": "„Haus in mc”"
+    },
+    "contact": {
+        "form-title": "Title",
+        "form-message": "Message",
+        "form-button": "Send"
+    }
+}
